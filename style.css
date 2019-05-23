@@ -1,0 +1,32 @@
+body {
+    background: #636161;
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+footer {
+    padding: 25px;
+    border: 1px solid #fff;
+    margin: 10px;
+}
+
+footer {
+    background: lavender;
+    color: #000;
+}
+
+article {
+    background: pink;
+    color: #fff;
+}
+
+aside {
+    width: 44%;
+    display: inline-table;
+    margin: 10px 2px;
+}
+
+aside {
+    height: 280px;
+}
