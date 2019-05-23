@@ -1,32 +1,46 @@
-body {
-    background: #636161;
-    width: 80%;
-    margin: 0px auto;
-    text-align: center;
-}
-
-footer {
-    padding: 25px;
-    border: 1px solid #fff;
-    margin: 10px;
-}
-
-footer {
-    background: lavender;
-    color: #000;
-}
-
-article {
-    background: pink;
-    color: #fff;
-}
-
-aside {
-    width: 44%;
-    display: inline-table;
-    margin: 10px 2px;
-}
-
-aside {
-    height: 280px;
-}
+    body {
+        background: #636161;
+        width: 80%;
+        margin: 0px auto;
+        text-align: center;
+    }
+    
+    footer {
+        padding: 25px;
+        border: 1px solid #fff;
+        margin: 10px;
+    }
+    
+    footer {
+        background: lavender;
+        color: #000;
+        clear: both;
+    }
+    
+    article {
+        background: pink;
+        color: #fff;
+    }
+    
+    aside {
+        height: 280px;
+        width: 45%;
+        float: right;
+    }
+    
+    section {
+        float: left;
+        width: 45%;
+    }
+    
+    .container {
+        padding: 20px;
+        margin: 10px 10px;
+    }
+    
+    .gray {
+        background-color: lightgray;
+    }
+    /* add background color to HI,H2,H3
+add spacing between h1,h2,h3 and p
+space between aside and footer (check height) */
